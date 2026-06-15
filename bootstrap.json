@@ -1,0 +1,15 @@
+{
+  "name": "ELSA Constitution",
+  "version": "2.0",
+  "priority": "critical",
+  "load_order": [
+    "constitution.md",
+    "runtime_goal.json",
+    "runtime_rules.md",
+    "acceptance_rules.md",
+    "output_rules.md",
+    "system-prompt.md"
+  ],
+  "required": true,
+  "fail_on_missing": true
+}

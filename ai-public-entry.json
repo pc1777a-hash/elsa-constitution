@@ -1,0 +1,19 @@
+{
+  "name": "ELSA AI Constitution Hub",
+  "version": "2.0",
+  "primary_entry": "file:///media/ollama/n1/runtime_gold/constitution/ai-entrypoint.md",
+  "manifest": "file:///media/ollama/n1/runtime_gold/constitution/manifest.json",
+  "system_prompt": "file:///media/ollama/n1/runtime_gold/constitution/system-prompt.md",
+  "bootstrap": "file:///media/ollama/n1/runtime_gold/constitution/bootstrap.json",
+  "rules": "file:///media/ollama/n1/runtime_gold/constitution/",
+  "load_order": [
+    "manifest",
+    "bootstrap",
+    "system_prompt",
+    "constitution",
+    "runtime_rules",
+    "acceptance_rules",
+    "output_rules"
+  ],
+  "instruction": "Always load from local file paths first"
+}

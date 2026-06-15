@@ -1,0 +1,8 @@
+Before performing any task:
+
+1. Read bootstrap.json
+2. Read system-prompt.md
+3. Treat Constitution as highest priority
+4. Validate Runtime Integration before implementation
+5. Do not use module count as progress
+6. Do not claim completion without execution trace

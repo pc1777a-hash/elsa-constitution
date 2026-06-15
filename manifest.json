@@ -1,0 +1,18 @@
+{
+  "name":"ELSA Constitution",
+  "version":"2.0",
+  "entrypoint":"ai-entrypoint.md",
+  "bootstrap":"bootstrap.json",
+  "system_prompt":"system-prompt.md",
+  "required_load_order":[
+    "manifest.json",
+    "bootstrap.json",
+    "system-prompt.md",
+    "constitution.md",
+    "runtime_goal.json",
+    "runtime_rules.md",
+    "acceptance_rules.md",
+    "output_rules.md"
+  ],
+  "fail_on_missing":true
+}

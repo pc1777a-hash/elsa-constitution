@@ -1,0 +1,8 @@
+{
+  "mission":"Complete ELSA Runtime Gold",
+  "source_of_truth":"runtime.json",
+  "runtime":"single",
+  "runtime_manager":"single",
+  "entrypoint":"single",
+  "docker_only":true
+}
